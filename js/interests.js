@@ -69,7 +69,7 @@ $("#submit").click(function() {
         success: function (data) {
             $("#likes").val('');
             $("#name").val('');
-            //alert("Successfully added your interests");
+            alert("Successfully added your interests");
             console.log(data);
         }
     });
