@@ -2,42 +2,42 @@ var namArr = ['ali', 'austin', 'fayaz', 'george', 'haris', 'kevin', 'qifan', 'sa
 
 $("#ali").click(function(event) {
   event.preventDefault();
-  $("#currInterests").load("../ali.php");
+  $("#currInterests").load("interests/ali.php");
 });
 
 $("#aus").click(function(event) {
   event.preventDefault();
-  $("#currInterests").load("../austin.php");
+  $("#currInterests").load("interests/austin.php");
 });
 
 $("#fay").click(function(event) {
   event.preventDefault();
-  $("#currInterests").load("../fayaz.php");
+  $("#currInterests").load("interests/fayaz.php");
 });
 
 $("#geo").click(function(event) {
   event.preventDefault();
-  $("#currInterests").load("../george.php");
+  $("#currInterests").load("interests/george.php");
 });
 
 $("#har").click(function(event) {
   event.preventDefault();
-  $("#currInterests").load("../haris.php");
+  $("#currInterests").load("interests/haris.php");
 });
 
 $("#kev").click(function(event) {
   event.preventDefault();
-  $("#currInterests").load("../kevin.php");
+  $("#currInterests").load("interests/kevin.php");
 });
 
 $("#qif").click(function(event) {
   event.preventDefault();
-  $("#currInterests").load("../qifan.php");
+  $("#currInterests").load("interests/qifan.php");
 });
 
 $("#sam").click(function(event) {
   event.preventDefault();
-  $("#currInterests").load("../samir.php");
+  $("#currInterests").load("interests/samir.php");
 });
 
 function contains(a, obj) {
