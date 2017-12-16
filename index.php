@@ -10,7 +10,7 @@
 
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/snow.css">
-    <link rel="icon" href="/res/favicon.ico" type="image/gif" sizes="16x16">
+    <link rel="icon" href="res/favicon.ico" type="image/gif" sizes="16x16">
 
     <!-- Press Start 2P font from Google -->
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
