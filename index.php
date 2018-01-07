@@ -76,10 +76,10 @@
     <div class="container" style="margin-top: 5%;">
         <div class="row">
           <div class="col">
-            <input type="email" class="form-control" id="likes" placeholder="Enter something you like (one at a time or with a space inbetween)">
+            <input type="text" class="form-control" id="likes" placeholder="Enter something you like (one at a time or with a comma inbetween)">
           </div>
           <div class="col">
-            <input type="email" class="form-control" id="name" placeholder="Enter your name">
+            <input type="text" class="form-control" id="name" placeholder="Enter your name">
           </div>
         </div>
 

@@ -61,7 +61,7 @@ $("#submit").click(function() {
   } else {
     $.ajax({
         type: 'POST',
-        url: '/seanmas/post.php',
+        url: 'post.php',
         data: {
             i: likes,
             n: name
@@ -69,7 +69,8 @@ $("#submit").click(function() {
         success: function (data) {
             $("#likes").val('');
             $("#name").val('');
-            alert("Successfully added your interests");
+            //alert("Successfully added your interests");
+            $("currInterests").load('fayaz.php');
             console.log(data);
         }
     });
